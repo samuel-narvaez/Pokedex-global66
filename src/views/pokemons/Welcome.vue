@@ -1,10 +1,15 @@
 <script setup>
-
+import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
-const router = useRouter()
 
-const goToList = () => {
-  router.push({ path: 'all-list' })
+const router = useRouter()
+const store = useStore()
+
+const goToList = async () => {
+  await Promise.all([
+    router.push({ path: 'home' }),
+    store.dispatch('PokemonModule/allPokemons')
+  ])
 }
 
 </script>
