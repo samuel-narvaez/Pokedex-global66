@@ -11,7 +11,7 @@ const goToList = () => {
 
 
 <template>
-  <div class="flex justify-center items-center min-h-screen px-10 text-center">
+  <div class="flex justify-center items-center min-h-screen px-10 py-5 text-center">
     <div class="max-w-screen-md w-full">
       <img src="/img/logoWelcome.png" class="block mx-auto w-[60%] sm:w-[50%] md:w-[40%] lg:w-[30%] max-w-[300px] h-auto" alt="Vlogo" />
       <h1 class="text-[26px] leading-[31.2px] font-bold mt-16">Welcome to Pokédex</h1>
