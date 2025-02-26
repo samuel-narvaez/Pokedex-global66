@@ -5,10 +5,8 @@ import SearchPokemon from '../../components/pokemons/Search.vue'
 
 </script>
 
-<!-- min-h-[89vh] lg:min-h-[90vh] 2xl:min-h-[94vh] -->
-
 <template>
-    <div class="mx-auto min-h-[92vh] lg:min-h-[80vh] px-10 py-10 text-center shadow-2xl">
+    <div class="mx-auto min-h-[92vh] lg:min-h-[92vh] 2xl:min-h-[92vh] px-10 py-10 text-center shadow-2xl">
         <div class="flex flex-col items-center">
             <SearchPokemon />
             <List :showFavorites=false />

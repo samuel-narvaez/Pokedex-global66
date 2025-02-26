@@ -5,7 +5,6 @@ import Lista from './AllList.vue'
 import Favoritos from './Favorite.vue'
 import Menu from '../../components/menu/Menu.vue'
 
-
 const store = useStore()
 const currentView = computed(() => store.state.MenuModule.page)
 
