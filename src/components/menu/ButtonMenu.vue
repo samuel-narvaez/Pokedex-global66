@@ -39,6 +39,7 @@ const buttonClasses = computed(() => {
     px-6 py-2
     rounded-full font-medium shadow-md
     transition-all duration-300 ease-in-out
+    font-[Lato]
     ${props.isActive ? 'bg-[#F22539] text-white' : 'bg-[#BFBFBF] text-white'}
   `
 })

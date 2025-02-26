@@ -50,7 +50,7 @@ const closeModal = () => {
             <ul class="space-y-2 mt-10 w-[20rem] lg:w-[35rem]">
                 <li v-for="pokemon in pokemons" :key="pokemon.name" @click="showDetails(pokemon)"
                     class="flex justify-between items-center bg-gray-100 p-3 rounded-lg">
-                    <span>{{ pokemon.name }}</span>
+                    <span class="font-[Lato]">{{ pokemon.name }}</span>
                     <button type="button" @click="stateFavorite(pokemon)">
                         <i class="fa-solid fa-star" :style="{ color: pokemon.isFavorite ? '#ECA539' : '#BFBFBF' }"></i>
                     </button>
