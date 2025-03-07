@@ -23,7 +23,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="mt-10 flex justify-center">
+    <div class="flex justify-center items-center min-h-[75vh]">
         <img 
             v-if="!showOpenPokeball" 
             class="w-[17rem]" 
